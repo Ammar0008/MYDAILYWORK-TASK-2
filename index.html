@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Academy Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="stars-container"></div>
+    <div class="cosmic-container">
+        <header>
+            <h1 class="glow">Cosmic Academy Registration</h1>
+            <p>Embark on an interstellar journey of knowledge</p>
+        </header>
+        <div class="spacecraft">
+            <div class="window"></div>
+        </div>
+        <div class="form-container">
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="name">Cosmic Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Intergalactic Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Star Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="course">Cosmic Course</label>
+                    <select id="course" name="course" required>
+                        <option value="">Select a course</option>
+                        <option value="quantum-astronomy">Quantum Astronomy</option>
+                        <option value="xenolinguistics">Xenolinguistics</option>
+                        <option value="wormhole-engineering">Wormhole Engineering</option>
+                        <option value="astrobiology">Astrobiology</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="launch-btn">Launch Your Cosmic Journey</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="planet"></div>
+    <script src="script.js"></script>
+</body>
+</html>
